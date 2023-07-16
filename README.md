@@ -1,10 +1,10 @@
-# NN-MushroomRecognition-Py-TensorFlow-SSTU
+# NN-MushroomClassification-Py-TensorFlow-SSTU
 
-Implementation of a neural network for solving the problem of mushroom recognition based on the TensorFlow library and the pre-trained efficientnet/b0 model. The Tkinter framework is used to draw the interface.
+Implementation of a neural network for solving the problem of mushroom сlassification based on the TensorFlow library and the pre-trained efficientnet/b0 model. The Tkinter framework is used to draw the interface.
 
 ![image](https://github.com/ruddanil/NN-MushroomRecognition-Py-TensorFlow-SSTU/assets/25799951/c698a75d-d6ef-49fa-a3fc-b58ea7996b8d)
 
-## Using the program to solve other recognition tasks
+## Using the program to solve other сlassification tasks
 
 ### Option 1. You want to train/retrain the model from scratch on your dataset.
 

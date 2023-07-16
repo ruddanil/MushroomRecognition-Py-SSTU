@@ -38,7 +38,7 @@ Optional: You can replace the pre-trained TensorFlow model by specifying a link 
         tf.keras.layers.Dense(train_generator.num_classes, activation='softmax')
     ])
 ```
-### Note: This program is an educational project. It is convenient to use it to demonstrate the work of a pre-trained model. To solve more serious problems, it is more convenient and correct to use tools like "Jupiter Notebook", where the learning progress is displayed and additional settings are possible.
+**Note: This program is an educational project. It is convenient to use it to demonstrate the work of a pre-trained model. To solve more serious problems, it is more convenient and correct to use tools like "Jupiter Notebook", where the learning progress is displayed and additional settings are possible.**
 
 ### Option 2. You have a pre-trained model.
 

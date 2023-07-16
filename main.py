@@ -138,7 +138,7 @@ def recognize_image():
 
 
 window = tk.Tk()
-window.title("Mushroom Recognition")
+window.title("Image Recognition")
 window.geometry("310x515")
 window.configure(bg="white")
 
@@ -157,7 +157,7 @@ input_entry.grid(row=1, column=2, sticky="w")
 train_button = tk.Button(window, text="Train Model", command=train_model)
 train_button.grid(row=1, column=3, sticky="ew", pady=5, padx=(0, 5))
 
-label_recognize = tk.Label(window, text="Mushroom recognition", font=("Arial", 12, "bold"), bg="white")
+label_recognize = tk.Label(window, text="Recognition", font=("Arial", 12, "bold"), bg="white")
 label_recognize.grid(row=2, column=0, columnspan=4, sticky="ew")
 
 load_model_button = tk.Button(window, text="Load Model", command=load_model_from_disk)
